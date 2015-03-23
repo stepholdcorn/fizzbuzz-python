@@ -8,3 +8,7 @@ def test_is_divisible_by_three():
 def test_is_divisible_by_five():
   assert_equal(fizzbuzz.is_divisible_by_five(5), 'Buzz')
   assert_equal(fizzbuzz.is_divisible_by_five(4), 4)
+
+def test_is_divisible_by_three_and_five():
+  assert_equal(fizzbuzz.is_divisible_by_three_and_five(15), 'Fizzbuzz')
+  assert_equal(fizzbuzz.is_divisible_by_three_and_five(4), 4)
