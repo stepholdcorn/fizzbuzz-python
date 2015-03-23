@@ -1,2 +1,5 @@
 def is_divisible_by_three(number):
-  return 'Fizz'
+  if number % 3 == 0:
+    return 'Fizz'
+  else:
+    return number
